@@ -1,0 +1,21 @@
+/** @format */
+
+
+.home {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 100px;
+    gap: 150px;
+  }
+  .home .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  .home .card img {
+    width: 100%;
+    max-height: 300px;
+    gap: 150px;
+  }
+  

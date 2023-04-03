@@ -1,0 +1,44 @@
+.sidebar {
+  flex: 1;
+  height: calc(100vh - 50px);
+  background-color: #e6f4f1;
+  position: sticky;
+  top: 50px;
+}
+
+.sbWrapper {
+  padding: 20px;
+  color: #454545;
+}
+
+.sbMenu {
+  margin-bottom: 10px;
+}
+
+.sbTitle {
+  font-size: 13px;
+  color: rgb(187, 186, 186);
+}
+
+.sbList {
+  list-style: none;
+  padding: 5px;
+}
+
+.sbListItem {
+  padding: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.sbListItem.active,
+.sbListItem:hover {
+  background-color: rgb(240, 240, 255);
+}
+
+.sbIcon{
+    margin-right: 5px;
+    font-size: 20px !important;
+}
